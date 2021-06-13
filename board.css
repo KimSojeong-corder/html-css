@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 body {
+  font-family: Abel;
   margin: 0;
   padding: 0;
   display: flex;
@@ -222,19 +225,20 @@ body {
   left: 370px
 }
 
-.map-rectangle {
+.map-rectangle-container {
   display: flex;
   flex-direction: column;
   position: absolute;
   width: 30%;
   height: 100%;
+  margin-right: 2px;
   top: 0;
   right: 0;
   z-index: 5;
 }
 
 .map-rectangle-place{
-  width: 99%;
+  width: 100%;
   height: 80px;
   display: flex;
   justify-content: flex-start;
@@ -243,7 +247,7 @@ body {
   margin-top: 2px;
   margin-right: 2px;
   background: #fbfbfb;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   box-sizing: border-box;
   color: black;
   font-size: 20px;
