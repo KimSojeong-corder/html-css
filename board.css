@@ -57,7 +57,7 @@ body {
 .location-menu {
   display: flex;
   justify-content: flex-start;
-  padding: 15px 10px;
+  padding: 10px 10px;
   font-size: 12px;
   color: #c2c2c2;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .community {
-  padding: 30px 10px;
+  padding: 24px 10px;
   font-size: 20px;
   color: #979797;
 }
@@ -80,9 +80,9 @@ body {
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: -35px;
-  padding: 20px 20px 15px 20px;
+  padding: 17px 17px 15px 17px;
 }
 
 .recently-viewed-place-title {
@@ -137,14 +137,14 @@ body {
   padding: 0px 10px;
   font-size: 10px;
   border-radius: 30px;
-  margin-top: 20px;
+  margin-top: 15px;
   box-sizing: border-box;
 }
 
 .select {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 10px;
 }
 
@@ -188,8 +188,8 @@ body {
 
 .map-container {
   width: 90%;
-  height: 400px;
-  margin-top: 30px;
+  height: 360px;
+  margin-top: 18px;
   position: relative;
 }
 
@@ -206,22 +206,22 @@ body {
 }
 
 .map-circle-a {
-  top: 103px;
+  top: 84px;
   left: 84px;
 }
 
 .map-circle-b {
-  top: 202px;
+  top: 183px;
   left: 105px;
 }
 
 .map-circle-c {
-  top: 233px;
+  top: 212px;
   left: 293px;
 }
 
 .map-circle-d {
-  top: 47px;
+  top: 27px;
   left: 370px
 }
 
@@ -256,4 +256,5 @@ body {
 .map-rectangle-place-explaination {
   font-size: 12px;
   margin-top: 2px;
+  font-weight: 50px;
 }
