@@ -4,6 +4,18 @@
   <title>장소찾기</title>
   <link rel="stylesheet" type="text/css" href="board.css">
   <link rel="stylesheet" type="text/css" href="icon.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiNL5OKQ3zlSzkNkVLVW7UVnzCym57Qq0&callback=initMap&libraries=&v=weekly"
+    async></script>
+  <script>
+    let map;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 37.5642135, lng: 127.0016985 },
+        zoom: 16,
+      });
+    }
+  </script>
 </head>
 
 <body>
@@ -82,9 +94,7 @@
           </div>
         </div>
         <div class="map-container">
-          <img
-            src="map.png"
-            style="width: 100%; height: 100%; object-fit: cover;"/>
+          <div id="map" style="width: 100%; height: 100%; object-fit: cover;"></div>
           <div class="map-circle map-circle-a">
             A
           </div>
