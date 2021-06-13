@@ -188,41 +188,41 @@ body {
 
 .map-container {
   width: 90%;
-  height: 360px;
+  height: 400px;
   margin-top: 18px;
   position: relative;
 }
 
 .map-circle {
-  width: 30px;
-  height: 30px;
-  border-radius: 20px;
-  background: gray;
+  width: 25px;
+  height: 25px;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: blue;
+  border-radius: 20px;
+  background: white;
 }
 
 .map-circle-a {
-  top: 84px;
-  left: 84px;
+  top: 105px;
+  left: 97px;
 }
 
 .map-circle-b {
-  top: 183px;
-  left: 105px;
+  top: 204px;
+  left: 123px;
 }
 
 .map-circle-c {
-  top: 212px;
-  left: 293px;
+  top: 236px;
+  left: 308px;
 }
 
 .map-circle-d {
-  top: 27px;
-  left: 370px
+  top: 49px;
+  left: 387px
 }
 
 .map-rectangle-container {
