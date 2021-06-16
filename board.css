@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
 body {
-  font-family: Abel;
+  font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -14,18 +14,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
-.title {
-  height: 120px;
-  width: 100%;
+.title-container {
+  height: 40px;
+  width: 240px;
   display: flex;
   justify-content: flex-start;
-  padding: 0 20px;
-  align-items: center;
-  font-size: 40px;
+  margin-top: 60px;
+  margin-left: -770px;
   box-sizing: border-box;
-  font-weight: 700;
 }
 
 .location-body {
@@ -33,6 +32,7 @@ body {
   flex-direction: row;
   width: 100%;
   align-items: flex-start;
+  margin-top: 15px;
 }
 
 .location-menu-container {
@@ -45,6 +45,7 @@ body {
   justify-content: center;
   padding: 20px 5px 12px 5px;
   font-size: 20px;
+  font-weight: 1500;
 }
 
 .location-title-bar {
@@ -58,12 +59,20 @@ body {
   display: flex;
   justify-content: flex-start;
   padding: 10px 10px;
-  font-size: 12px;
+  font-size: 15px;
   color: #c2c2c2;
 }
 
 .font-black {
-  color: black;
+  color: #181818;
+}
+
+.font-blue {
+  color: #4a9dff;
+}
+
+.font-bold {
+  font-weight: bolder;
 }
 
 .community {
@@ -139,7 +148,9 @@ body {
   border-radius: 30px;
   margin-top: 15px;
   box-sizing: border-box;
+  font-weight: 500;
 }
+
 
 .select {
   display: flex;
@@ -150,7 +161,7 @@ body {
 
 .select-menu {
   width: 150px;
-  height: 35px;
+  height: 27px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -162,7 +173,7 @@ body {
 
 .hashtag {
   width: 70px;
-  height: 35px;
+  height: 27px;
   display: flex;
   align-items: center;
   padding: 0 15px;
@@ -174,16 +185,20 @@ body {
   margin-left: 10px;
 }
 
-.background-lightgray {
-  background: #f6f6f6;
+.background-lightblue {
+  background-color: rgba(74, 157, 255, 0.1);
 }
 
-.background-darkgray {
-  background: #c6c6c6;
+.background-skyblue {
+  background-color: rgba(74, 222, 222, 0.75);
 }
 
-.background-gray {
-  background: #eaeaea;
+.background-blue {
+  background-color: rgba(115, 226, 226, 0.5);
+}
+
+.font-gray {
+  color: #7c7c7c;
 }
 
 .map-container {
@@ -201,8 +216,10 @@ body {
   justify-content: center;
   align-items: center;
   color: blue;
-  border-radius: 20px;
+  border-radius: 20px ;
   background: white;
+  border: 4px solid;
+  border-color: #4a9dff;
 }
 
 .map-circle-a {
